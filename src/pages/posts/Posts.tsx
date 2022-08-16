@@ -1,15 +1,16 @@
 import { memo, useCallback, useState } from "react";
-import { Header } from "../../components/Header";
-import { ContentPosts } from "./components/ContentPosts";
+import { Header } from "src/components/Header";
+import { Post } from "src/components/post/Post";
+import { ContentPosts } from "../../components/post/ContentPosts";
 import { IC_UP, IC_SAVE } from "../../assets";
-import { Post } from "./components/Post";
 
 export const Posts = memo(()=>{
     const [showFormNext, setShowFormNext] = useState<boolean>(false);
 
-    const changeShowFormNext = useCallback((active:boolean)=>{
-        setShowFormNext(active);
-    }, [showFormNext]);
+    // const changeShowFormNext = useCallback((active:boolean)=>{
+    //     setShowFormNext(active);
+    // }, [showFormNext]);
+
     return(
         <div className="posts">
             <Header/>

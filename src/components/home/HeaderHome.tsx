@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Header } from "../../../components/Header";
+import { Header } from "../Header";
 
 export const HeaderHome = memo(()=>{
     return(<div className="header-home">

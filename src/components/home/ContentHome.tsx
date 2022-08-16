@@ -1,5 +1,4 @@
 import { memo } from "react";
-import { IC_SCIENCE } from "../../../assets";
 
 export const ContentHome = memo(()=>{
     return (
