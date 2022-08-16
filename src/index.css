@@ -1,13 +1,140 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+    height:100vh;
+}
+.login{
+    height:100%;
+    display:flex;
+}
+.register{
+    height:100%;
+    display:flex;
+}
+.main-login{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    border:1px solid #ced4da;
+}
+.main-register{
+    width:400px;
+    height:500px;
+    margin:auto;
+    display:flex;
+    flex-direction: column ;
+    align-self:center;
+    padding:20px;
+    border:1px solid #ced4da;
+}
+.title-auth{
+    
+    text-align:center;
+    font-size:22px;
+}
+.form-auth{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo-auth{
+    width:50%;
+    align-self: center;
+}
+.home{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    padding-left:150px;
+    padding-right:150px;
+}
+.header-home{
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    background-color: white !important;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display:flex;
+    align-items: center;
+}
+.option{
+    margin-left:10px;
+    margin-right:10px;
+}
+.bottom-header-home{
+    position: fixed;
+    top:80px;
+    display:1;
+}
+.logo-home{
+    height:80px;
+}
+.img-option{
+    height:22px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.img-avatar{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.write{
+    border:1px solid #ced4da;
+}
+.topics{
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.content-home{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f7fa;
+}
+.banner-topic img{
+    height:350px;
+    width:100%;
+}
+.main{
+    flex:1;
+    background-color: white;
+}
+.posts{
+    height:100%;
+    padding-left:150px;
+    padding-right:150px;
+}
+.save{
+    position: fixed;
+    display:flex;
+    bottom:20px;
+    text-align: center;
+}
+.top-page img{
+    height:30px;
+}
+.save img{
+    height:20px;
+}
+.post{
+    display:flex;
+    flex-direction: column;
+    height:30%;
+    width:30%;
+    justify-content: space-around;
+    margin:auto;
+}
+
+.create-posts{
+    align-self: center;
 }
