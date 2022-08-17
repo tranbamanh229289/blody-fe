@@ -1,5 +1,6 @@
 .App{
     height:100vh;
+    background-color: rgb(246, 246, 249);
 }
 .login{
     height:100%;
@@ -47,9 +48,6 @@
     height:100%;
     display:flex;
     flex-direction: column;
-    width:90%;
-    margin:auto;
-    background-color: rgb(246, 246, 249);
 }
 .header-home{
     display:flex;
@@ -58,6 +56,8 @@
     margin-bottom: 20px;
 }
 .header{
+    width: 90%;
+    margin: auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -95,6 +95,8 @@
     flex:1;
     flex-wrap: wrap;
     text-transform: uppercase;
+    width: 90%;
+    margin: auto;
 }
 .topic{
     font-size: 16px;
@@ -108,9 +110,8 @@
     display:flex;
     flex:1;
     flex-direction: column;
-    background-color: #ffffff;
-    margin-left:5%;
-    margin-right:5%;
+    margin:auto;
+    width:90%;
 }
 .banner-topic img{
     height:350px;
