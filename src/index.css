@@ -49,6 +49,7 @@
     flex-direction: column;
     width:90%;
     margin:auto;
+    background-color: rgb(246, 246, 249);
 }
 .header-home{
     display:flex;
@@ -78,8 +79,8 @@
 }
 
 .img-avatar{
-    height:50px;
-    width:50px;
+    height:45px;
+    width:45px;
     border-radius:50%;
 }
 .btn-avatar{
@@ -107,7 +108,9 @@
     display:flex;
     flex:1;
     flex-direction: column;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
+    margin-left:5%;
+    margin-right:5%;
 }
 .banner-topic img{
     height:350px;

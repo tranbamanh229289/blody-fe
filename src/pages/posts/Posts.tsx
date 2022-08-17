@@ -1,7 +1,7 @@
 import { memo, useCallback, useState } from "react";
 import { Header } from "src/components/Header";
-import { Post } from "src/components/post/Post";
-import { ContentPosts } from "../../components/post/ContentPosts";
+import { Post } from "src/components/posts/Post";
+import { ContentPosts } from "../../components/posts/ContentPosts";
 import { IC_UP, IC_SAVE } from "../../assets";
 
 export const Posts = memo(()=>{
@@ -13,14 +13,20 @@ export const Posts = memo(()=>{
 
     return(
         <div className="posts">
-            <Header/>
+            {/* <Header/> */}
             <ContentPosts/>
             <div className="save">
-                <button className="btn btn-light"> <img src={IC_SAVE} alt="" /> Lưu nháp</button>
-                <button className="btn btn-primary">Bước tiếp theo</button>
-                <a href="#top-page" className="top-page"><img src={IC_UP} alt=""/></a>
+                <button className="btn btn-light">
+                    <img src={IC_SAVE} alt="" /> Lưu nháp
+                </button>
+                <button className="btn btn-primary">
+                    Bước tiếp theo
+                </button>
+                <a href="#top-page" className="top-page">
+                    <img src={IC_UP} alt=""/>
+                </a>
             </div>
-            <Post show={showFormNext} />
+            {/* <Post show={showFormNext} /> */}
         </div>
        
     )
