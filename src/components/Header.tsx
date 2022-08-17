@@ -1,10 +1,12 @@
 import { memo } from "react";
-import { IC_LOGO, IC_MESSAGE, IC_NOTIFI, IC_WRITE, IC_AVATAR } from "../assets";
+import { IC_LOGO, IC_MESSAGE, IC_NOTIFI, IC_WRITE} from "../assets";
+import { DropdownAccount } from "./home/DropdownAccount";
+
 
 export const Header=memo(()=>{
     return (
         <div className="header" id="top-page">
-            <img src={IC_LOGO} alt="not found" className="logo-home" />
+            <a href="/home"><img src={IC_LOGO} alt="not found" className="logo-home" /></a>
             <div className="search">
                 <input type="text" placeholder="search article" className="form-control"/>
             </div>
@@ -21,9 +23,7 @@ export const Header=memo(()=>{
                         Viết bài
                     </a>
                 </div>
-                <div className="avatar">
-                    <img src={IC_AVATAR} alt="" className="img-avatar"/>
-                </div>
+                <DropdownAccount/>
             </div>
         </div>)
 })

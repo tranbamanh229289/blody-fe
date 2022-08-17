@@ -47,14 +47,14 @@
     height:100%;
     display:flex;
     flex-direction: column;
-    padding-left:150px;
-    padding-right:150px;
+    width:90%;
+    margin:auto;
 }
 .header-home{
-    height: 150px;
     display:flex;
     flex-direction: column;
     background-color: white !important;
+    margin-bottom: 20px;
 }
 .header{
     display:flex;
@@ -69,11 +69,7 @@
     margin-left:10px;
     margin-right:10px;
 }
-.bottom-header-home{
-    position: fixed;
-    top:80px;
-    display:1;
-}
+
 .logo-home{
     height:80px;
 }
@@ -86,18 +82,30 @@
     width:50px;
     border-radius:50%;
 }
+.btn-avatar{
+    border:0px;
+    background-color: #ffffff;
+}
 .write{
     border:1px solid #ced4da;
 }
 .topics{
-    display:flex;
-    align-items: center;
+    margin-top: 20px;
+    flex:1;
+    flex-wrap: wrap;
     text-transform: uppercase;
-    justify-content: space-between;
+}
+.topic{
+    font-size: 16px;
+    font-weight:400;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 20px;
 }
 .content-home{
-    flex:1;
     display:flex;
+    flex:1;
     flex-direction: column;
     background-color: #f5f7fa;
 }
