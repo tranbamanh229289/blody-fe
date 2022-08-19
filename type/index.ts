@@ -17,13 +17,19 @@ export interface INotification{
     date: Date,
     path: string,
 }
-export interface IBlog{
-    content: string,
+export interface IArticle{
+    content: string, 
     title: string,
     like: number,
     dislike: number,
-    status: boolean,
-    views: number,
-    description: string
+    status: number,
+    linkImage: string,
+    type: number,
+    view: number,
+    description: string,
 }
 
+export interface ITopic{
+    name: string,
+    url: string
+}

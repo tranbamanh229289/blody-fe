@@ -16,7 +16,7 @@ export const authReducer = createSlice({
     name: 'auth',
     initialState,
     reducers: {
-        register(state, action: PayloadAction<IUser>){
+        register(state:IStateAuth, action: PayloadAction<IUser>){
             return state;
         }
     }
